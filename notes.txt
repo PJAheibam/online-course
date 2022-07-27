@@ -1,0 +1,11 @@
+
+bonus section
+
+1. difference between flexbox and grid
+2. tailwind vs bootstrap
+3. what is css box model?
+4. what is semantic tag
+
+sponser only shows on desktop
+
+modal 
