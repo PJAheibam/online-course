@@ -32,10 +32,15 @@
 }
 
 .social-icons .icon {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  text-decoration: none;
+}
+.social-icons .icon:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .logo {
   width: 10rem;
@@ -55,6 +60,7 @@
   /* height: 20rem; */
 }
 .company-logo {
+  cursor: pointer;
 }
 /* overriding bootstrap classes */
 .container,
