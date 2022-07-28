@@ -1,6 +1,39 @@
 .text-lg {
   font-size: 3rem;
 }
+.bg-primary-2 {
+  background-color: hsla(240, 100%, 50%, 0.7);
+}
+.text-justify {
+  text-align: justify;
+}
 .obj-cover {
   object-fit: cover;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+
+.inline-gap {
+  margin-inline: 2rem;
+}
+.inline-padding {
+  padding-inline: 2rem;
+}
+
+@media screen and (min-width: 577px) {
+  .inline-gap {
+    margin-inline: 5rem;
+  }
+  .inline-padding {
+    padding-inline: 5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .inline-gap {
+    margin-inline: 10rem;
+  }
+  .inline-padding {
+    padding-inline: 10rem;
+  }
 }
